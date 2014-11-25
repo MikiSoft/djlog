@@ -1,0 +1,4 @@
+Initialisation step:
+	- Modeling database
+	- Sorting controllers
+	- Writting basic view templates
