@@ -1,0 +1,4 @@
+djlog
+=====
+
+Simple django blog 
