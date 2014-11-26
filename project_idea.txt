@@ -2,3 +2,5 @@ Initialisation step:
 	- Modeling database
 	- Sorting controllers
 	- Writting basic view templates
+
+Valjda sam sve podesio. (2)
