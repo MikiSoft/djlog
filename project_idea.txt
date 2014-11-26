@@ -3,4 +3,4 @@ Initialisation step:
 	- Sorting controllers
 	- Writting basic view templates
 
-Valjda sam sve podesio. (2)
+
