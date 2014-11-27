@@ -3,3 +3,6 @@
 
 # Python
 *.pyc
+
+# Django
+#db.sqlite3
