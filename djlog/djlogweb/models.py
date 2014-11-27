@@ -6,6 +6,12 @@ class PostsQuerySet(models.QuerySet):
         return self.filter(publish=True)
 
 
+# This is a Posts model, which contain logicaly all of the Posts
+# Slug is what we are going to use to create URLS. Slug basicly in our example
+# takes TITLE, than convert it to lowercase, and replaces whitespaces with '-'
+# Example: post titled as "This is stupied" will have a slug "this-is-stupied"
+
+
 class Posts(models.Model):
     title = models.CharField(max_length=200)
     post_author = models.CharField(max_length=40)
