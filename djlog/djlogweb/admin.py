@@ -8,4 +8,5 @@ class PostsAdmin(admin.ModelAdmin):
 
 
 admin.site.register(models.Posts, PostsAdmin)
+admin.site.register(models.Tag)
 # Register your models here.
