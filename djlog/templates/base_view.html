@@ -4,7 +4,9 @@
     <title>{% block title %}Simple Django blog{% endblock %}</title>
 </head>
 <body>
-{% block content %}
+    {% include 'navigation.html' %}
+    {% block content %}
+
 {% for post in posts_all %}
 {% if post.published %}
     <h3><a href="/{{ post.slug }}">{{ post.title }}</a></h3>
